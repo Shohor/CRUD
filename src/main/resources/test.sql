@@ -1,0 +1,12 @@
+insert into test.user (name, age, isAdmin, createdDate) values ('Ivanov ivan', 23, true, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Петров Пётр', 33, false, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Sidorov Fedor', 45, false, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Jon Mikle', 18, true, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Petrova Katya', 37, false, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Fedorov Igor', 57, false, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Венедиктов Роман', 64, true, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Перельман Яков', 48, true, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Микиелян Артур', 31, false, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Ivanov ivan', 45, false, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Петров Пётр', 23, true, Now());
+insert into test.user (name, age, isAdmin, createdDate) values ('Ivanova ivana', 22, true, Now());
