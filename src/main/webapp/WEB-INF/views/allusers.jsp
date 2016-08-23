@@ -7,11 +7,12 @@
 <html>
 <head>
 	<title>User Page</title>
-	<style type="text/css">
+	<style>
 		.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 		.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
 		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 		.tg .tg-4eph{background-color:#f9f9f9}
+		.error {color: #ff0000};
 	</style>
 </head>
 <body>
@@ -44,7 +45,7 @@
 		</td>
 		<td>
 			<form:input path="name" />
-			<form:errors path="name"/>
+			<form:errors path="name" cssClass="error"/>
 		</td> 
 	</tr>
 	<tr>
@@ -112,9 +113,9 @@
 	</form:form>	
 </c:if>
 	<h2>List of Users</h2>	
-	<table>
+	<table class ="tg">
 		<tr>
-			<td>ID</td><td>Name</td><td>Age</td><td>Admin</td><td>Created date</td><td>Deleted</td>
+			<td>ID</td><td>Name</td><td>Age</td><td>Admin</td><td>Created date</td><td>Edited</td><td>Deleted</td>
 		</tr>
 		<c:forEach var="user" items="${users}" varStatus="iter" >
 		<c:if test="${user ne null}">

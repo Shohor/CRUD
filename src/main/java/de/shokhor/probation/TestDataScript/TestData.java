@@ -1,13 +1,10 @@
 package de.shokhor.probation.TestDataScript;
 
-import java.util.Date;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import de.shokhor.probation.Entity.User;
 
 
 public class TestData {
